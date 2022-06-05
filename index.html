@@ -17,7 +17,12 @@
 <body>
 <div id="ie_warning"></div>
 
- 
+<!--[if IE 6]>
+<p>あなたはInternet Explorer 6を使用しています。</p>
+<![endif]-->
+<!--[if !IE]><!-->
+<p>あなたはInternet Explorerを使用していません。</p>
+<!--<![endif]-->
 <script>
   function change(){
   var stlyechange = document.getElementById("bg")
